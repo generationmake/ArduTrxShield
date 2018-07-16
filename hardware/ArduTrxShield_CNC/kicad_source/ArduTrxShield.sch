@@ -52,8 +52,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ArduTrx Shield CNC Version"
-Date "2018-06-11"
-Rev "x1.0"
+Date "2018-07-16"
+Rev "x1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1259,7 +1259,7 @@ Text Notes 5350 6500 0    60   ~ 0
 differential output\nfor speaker
 Text Notes 2950 7050 0    60   ~ 0
 LM4861 also works
-Text Notes 2050 1250 0    60   ~ 0
+Text Notes 700  3000 0    60   ~ 0
 filter for 2m version\nchebyshev low pass filter\ncutoff frequency: 185 MHz\npassband ripple: 0.5 dB\nimpedance: 50 Ohm 
 $Comp
 L LT1085 U2
@@ -1614,17 +1614,6 @@ F 3 "" H 5000 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4350 5700
-$Comp
-L C_1206 C15
-U 1 1 5B0EACCD
-P 4350 5500
-F 0 "C15" H 4360 5570 50  0000 L CNN
-F 1 "10u" H 4360 5420 50  0000 L CNN
-F 2 "capacitors:C_1206" H 4350 5350 50  0001 C CNN
-F 3 "" H 4350 5500 50  0000 C CNN
-	1    4350 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4350 5600 4350 6350
 Wire Wire Line
@@ -1804,4 +1793,17 @@ Text Label 2050 2000 0    60   ~ 0
 ANT3
 Text Notes 2400 2650 0    60   ~ 0
 place R28..30 only if no filter necessary
+Text Notes 500  1250 0    47   ~ 0
+Copyright generationmake 2018\nsee full project documentation at http://ardutrx.generationmake.de\n\nThis   documentation   describes   Open   Hardware   and   is   licensed   \nunder   the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms \nof the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation \nis distributed WITHOUT   ANY   EXPRESS   OR   IMPLIED   WARRANTY, \nINCLUDING   OF MERCHANTABILITY,   SATISFACTORY   QUALITY   AND \nFITNESS   FOR   A PARTICULAR   PURPOSE.   Please   see   the   CERN   \nOHL   v.1.2  for   applicable conditions
+$Comp
+L CP_Small C15
+U 1 1 5B4C7944
+P 4350 5500
+F 0 "C15" H 4360 5570 50  0000 L CNN
+F 1 "470u" H 4360 5420 50  0000 L CNN
+F 2 "capacitors:c_elec_8x10.5" H 4350 5500 50  0001 C CNN
+F 3 "" H 4350 5500 50  0000 C CNN
+	1    4350 5500
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
