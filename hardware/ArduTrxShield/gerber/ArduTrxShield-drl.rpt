@@ -1,0 +1,31 @@
+Drill report for /home/bernhard/projects/ArduTrx/hardware/ArduTrxShield/kicad_source/ArduTrxShield.kicad_pcb
+Created on Mi 18 Jul 2018 07:32:56 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ArduTrxShield.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (45 holes)
+    T2  0,50mm  0,020"  (2 holes)
+    T3  0,80mm  0,032"  (2 holes)
+    T4  1,00mm  0,039"  (41 holes)
+    T5  1,02mm  0,040"  (5 holes)
+    T6  1,10mm  0,043"  (3 holes)
+    T7  1,50mm  0,059"  (4 holes)
+    T8  2,60mm  0,102"  (2 holes)
+
+    Total plated holes count 104
+
+
+Drill file 'ArduTrxShield-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1,15mm  0,045"  (2 holes)
+    T2  3,17mm  0,125"  (4 holes)
+
+    Total unplated holes count 6
