@@ -4,7 +4,7 @@ see full project documentation at http://ardutrx.generationmake.de
 
 changes
 
-version 1.0 - 2018-07-16
+version 1.0 - 2018-07-20
 * initial release
 
 
