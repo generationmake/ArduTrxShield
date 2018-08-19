@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+BODY
+{
+	background-color: #FFF;
+	font-family: sans-serif;
+	color:#000;
+}
+
+a
+{
+	color:#aaa;
+}
+
+a:hover
+{
+	color:#ddd;
+	background-color: #333;
+}
+
+p
+{
+	margin: 2px;
+}
+
+h1
+{
+	margin: 2px;
+}
