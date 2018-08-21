@@ -1,5 +1,6 @@
 ArduTrx - Open Source Hamradio Transceiver for Arduino
 ArduTrxShield regular Version
+bernhard@generationmake.de
 see full project documentation at http://ardutrx.generationmake.de
 
 changes
@@ -7,5 +8,17 @@ changes
 version 1.0 - 2018-07-20
 * initial release
 
+version 1.1 - 2018-08-21
+* changed R12 and R21 to 4k7
+* changed R17 to 300R
+* changed R16 and R31 to 1k
+* removed R2
+* updated footprint of SW1 - bigger mounting holes
+* corrected footprint of CN4
+* changed footprint of CN3 to Lumberg 1503 07
+* made pcb smaller and moved CN3 and CN4 closer to the edge for easier case integration
+* added pulldown resistors R2, R33 and R34 at FETs to prevent malfunction if no arduino is connected
+* possibility to measure VIN with R35 and R36 at A1 if no GPS receiver is connected
+* added CN7 vor VIN to enable stand alone operation
 
 
