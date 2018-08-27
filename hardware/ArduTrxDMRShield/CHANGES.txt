@@ -1,0 +1,11 @@
+ArduTrx - Open Source Hamradio Transceiver for Arduino
+ArduTrxShield DMR Version
+bernhard@generationmake.de
+see full project documentation at http://ardutrx.generationmake.de
+
+changes
+
+version 1.0 - 2018-xx-xx
+* initial release
+
+
