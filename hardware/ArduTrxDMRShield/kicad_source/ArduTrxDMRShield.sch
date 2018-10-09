@@ -1,50 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ATX_connector
-LIBS:CAN-transceiver
-LIBS:come_connector
-LIBS:CON_wuerth
-LIBS:D_esdprotection
-LIBS:devices
-LIBS:displayport_connector
-LIBS:displays
-LIBS:electrical-connectors
-LIBS:eth_usb_connectors_combos
-LIBS:ftdi
-LIBS:IC_batterycharger
-LIBS:IC_clockbuffer
-LIBS:IC_interface_i2c
-LIBS:IC_levelshifter
-LIBS:IC_loadswitch
-LIBS:IC_microcontroller_ST
-LIBS:IC_rtc
-LIBS:IC_sensor
-LIBS:IC_transceiver_can
-LIBS:IC_transceiver_rs
-LIBS:IC_usbhub
-LIBS:interface
-LIBS:LED-controllers
-LIBS:L_filter
-LIBS:L_power
-LIBS:mechanical-connectors
-LIBS:mechanical-switches
-LIBS:MECH_smd-contact-finger
-LIBS:MECH_smd-mounting
-LIBS:MECH_smd-spacer
-LIBS:MEMS
-LIBS:microcontrollers
-LIBS:MODULE_compute
-LIBS:motor-driver
-LIBS:opamps
-LIBS:PCB_touch
-LIBS:PCIe_connectors
-LIBS:power-monitors
-LIBS:power-supply
-LIBS:sata_con
-LIBS:transistors
-LIBS:usb_connector_header
-LIBS:voltage-regulators
-LIBS:MODULE_RF
-LIBS:IC_audio
 LIBS:ArduTrxDMRShield-cache
 EELAYER 26 0
 EELAYER END
@@ -106,49 +60,49 @@ RXD
 $Comp
 L devices:R_0603 R12
 U 1 1 5B0B30C3
-P 6150 2550
-F 0 "R12" H 6180 2570 50  0000 L CNN
-F 1 "4k7" H 6180 2510 50  0000 L CNN
-F 2 "resistors:R_0603" H 6150 2400 50  0001 C CNN
-F 3 "" H 6150 2550 50  0000 C CNN
-	1    6150 2550
+P 6450 2250
+F 0 "R12" H 6480 2270 50  0000 L CNN
+F 1 "4k7" H 6480 2210 50  0000 L CNN
+F 2 "resistors:R_0603" H 6450 2100 50  0001 C CNN
+F 3 "" H 6450 2250 50  0000 C CNN
+	1    6450 2250
 	1    0    0    -1  
 $EndComp
 Text Label 9250 3200 0    60   ~ 0
 SQ_R
-Text Label 5850 1400 0    60   ~ 0
+Text Label 7350 750  0    60   ~ 0
 SQ
 $Comp
 L devices:Led_Small D3
 U 1 1 5B0B32C3
-P 6200 1150
-F 0 "D3" H 6150 1275 50  0000 L CNN
-F 1 "Led_green" H 6025 1050 50  0000 L CNN
-F 2 "LEDs:LED_0603" V 6200 1150 50  0001 C CNN
-F 3 "" V 6200 1150 50  0000 C CNN
-	1    6200 1150
+P 7900 750
+F 0 "D3" H 7850 875 50  0000 L CNN
+F 1 "Led_green" H 7725 650 50  0000 L CNN
+F 2 "LEDs:LED_0603" V 7900 750 50  0001 C CNN
+F 3 "" V 7900 750 50  0000 C CNN
+	1    7900 750 
 	1    0    0    -1  
 $EndComp
 $Comp
 L devices:R_0603 R7
 U 1 1 5B0B331A
-P 5900 1150
-F 0 "R7" H 5930 1170 50  0000 L CNN
-F 1 "1k" H 5930 1110 50  0000 L CNN
-F 2 "resistors:R_0603" H 5900 1000 50  0001 C CNN
-F 3 "" H 5900 1150 50  0000 C CNN
-	1    5900 1150
+P 7600 750
+F 0 "R7" H 7630 770 50  0000 L CNN
+F 1 "1k" H 7630 710 50  0000 L CNN
+F 2 "resistors:R_0603" H 7600 600 50  0001 C CNN
+F 3 "" H 7600 750 50  0000 C CNN
+	1    7600 750 
 	0    1    1    0   
 $EndComp
 $Comp
 L power-supply:VCC #PWR01
 U 1 1 5B0B338E
-P 6400 1100
-F 0 "#PWR01" H 6400 950 50  0001 C CNN
-F 1 "VCC" H 6400 1250 50  0000 C CNN
-F 2 "" H 6400 1100 50  0000 C CNN
-F 3 "" H 6400 1100 50  0000 C CNN
-	1    6400 1100
+P 8100 700
+F 0 "#PWR01" H 8100 550 50  0001 C CNN
+F 1 "VCC" H 8100 850 50  0000 C CNN
+F 2 "" H 8100 700 50  0000 C CNN
+F 3 "" H 8100 700 50  0000 C CNN
+	1    8100 700 
 	1    0    0    -1  
 $EndComp
 NoConn ~ 4550 1700
@@ -223,8 +177,6 @@ NoConn ~ 9900 1800
 NoConn ~ 9150 2300
 NoConn ~ 9150 2400
 NoConn ~ 9150 2500
-NoConn ~ 9150 2700
-NoConn ~ 9150 2800
 NoConn ~ 9150 2900
 NoConn ~ 9150 3000
 Text Label 9250 3100 0    60   ~ 0
@@ -232,9 +184,9 @@ MIC_IN_R
 Text Label 9250 2900 0    60   ~ 0
 KEYPAD_5
 Text Label 9250 2800 0    60   ~ 0
-KEYPAD_6
+PTT_Q_2
 Text Label 9250 2700 0    60   ~ 0
-KEYPAD_7
+PD_Q_2
 Text Label 9250 2500 0    60   ~ 0
 KEYPAD_8
 Text Label 9250 2400 0    60   ~ 0
@@ -242,9 +194,9 @@ KEYPAD_9
 Text Label 9250 2300 0    60   ~ 0
 KEYPAD_10
 Text Label 9250 2200 0    60   ~ 0
-PTT_Q
+PTT_Q_1
 Text Label 9250 2100 0    60   ~ 0
-PD_Q
+PD_Q_1
 $Comp
 L power-supply:GND #PWR04
 U 1 1 5B0B4087
@@ -353,23 +305,23 @@ AF_OUT
 $Comp
 L devices:R_0603 R11
 U 1 1 5B0B4D76
-P 8500 2500
-F 0 "R11" H 8530 2520 50  0000 L CNN
-F 1 "100" H 8530 2460 50  0000 L CNN
-F 2 "resistors:R_0603" H 8500 2350 50  0001 C CNN
-F 3 "" H 8500 2500 50  0000 C CNN
-	1    8500 2500
+P 8650 2500
+F 0 "R11" H 8680 2520 50  0000 L CNN
+F 1 "100" H 8680 2460 50  0000 L CNN
+F 2 "resistors:R_0603" H 8650 2350 50  0001 C CNN
+F 3 "" H 8650 2500 50  0000 C CNN
+	1    8650 2500
 	0    1    1    0   
 $EndComp
 $Comp
 L devices:R_0603 R9
 U 1 1 5B0B5128
-P 8500 1750
-F 0 "R9" H 8530 1770 50  0000 L CNN
-F 1 "100" H 8530 1710 50  0000 L CNN
-F 2 "resistors:R_0603" H 8500 1600 50  0001 C CNN
-F 3 "" H 8500 1750 50  0000 C CNN
-	1    8500 1750
+P 8650 1750
+F 0 "R9" H 8680 1770 50  0000 L CNN
+F 1 "100" H 8680 1710 50  0000 L CNN
+F 2 "resistors:R_0603" H 8650 1600 50  0001 C CNN
+F 3 "" H 8650 1750 50  0000 C CNN
+	1    8650 1750
 	0    1    1    0   
 $EndComp
 $Comp
@@ -553,28 +505,6 @@ F 3 "" H 3950 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L_filter:744912156 L2
-U 1 1 5B0DB465
-P 3350 2000
-F 0 "L2" H 3350 2100 50  0000 C CNN
-F 1 "744912156" H 3350 1950 50  0000 C CNN
-F 2 "L_filter:WE-CAIR_4248" H 3250 2000 50  0001 C CNN
-F 3 "" H 3350 2000 50  0000 C CNN
-	1    3350 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L L_filter:744912156 L1
-U 1 1 5B0DB4EE
-P 2750 2000
-F 0 "L1" H 2750 2100 50  0000 C CNN
-F 1 "744912156" H 2750 1950 50  0000 C CNN
-F 2 "L_filter:WE-CAIR_4248" H 2650 2000 50  0001 C CNN
-F 3 "" H 2750 2000 50  0000 C CNN
-	1    2750 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L devices:C_0603 C4
 U 1 1 5B0DB6F6
 P 4250 2150
@@ -594,50 +524,6 @@ F 1 "47p" H 3660 2070 50  0000 L CNN
 F 2 "capacitors:C_0603" H 3650 2000 50  0001 C CNN
 F 3 "" H 3650 2150 50  0000 C CNN
 	1    3650 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L devices:C_0603 C2
-U 1 1 5B0DBAD9
-P 3050 2150
-F 0 "C2" H 3060 2220 50  0000 L CNN
-F 1 "47p" H 3060 2070 50  0000 L CNN
-F 2 "capacitors:C_0603" H 3050 2000 50  0001 C CNN
-F 3 "" H 3050 2150 50  0000 C CNN
-	1    3050 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L devices:C_0603 C1
-U 1 1 5B0DBB60
-P 2450 2150
-F 0 "C1" H 2460 2220 50  0000 L CNN
-F 1 "30p" H 2460 2070 50  0000 L CNN
-F 2 "capacitors:C_0603" H 2450 2000 50  0001 C CNN
-F 3 "" H 2450 2150 50  0000 C CNN
-	1    2450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR018
-U 1 1 5B0DBCDA
-P 2450 2300
-F 0 "#PWR018" H 2450 2050 50  0001 C CNN
-F 1 "GND" H 2450 2150 50  0000 C CNN
-F 2 "" H 2450 2300 50  0000 C CNN
-F 3 "" H 2450 2300 50  0000 C CNN
-	1    2450 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power-supply:GND #PWR019
-U 1 1 5B0DBD4B
-P 3050 2300
-F 0 "#PWR019" H 3050 2050 50  0001 C CNN
-F 1 "GND" H 3050 2150 50  0000 C CNN
-F 2 "" H 3050 2300 50  0000 C CNN
-F 3 "" H 3050 2300 50  0000 C CNN
-	1    3050 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -696,28 +582,6 @@ F 3 "" H 2900 6950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L devices:R_0603 R22
-U 1 1 5B0DCF10
-P 1600 7100
-F 0 "R22" H 1630 7120 50  0000 L CNN
-F 1 "100" H 1630 7060 50  0000 L CNN
-F 2 "resistors:R_0603" H 1600 6950 50  0001 C CNN
-F 3 "" H 1600 7100 50  0000 C CNN
-	1    1600 7100
-	0    1    1    0   
-$EndComp
-$Comp
-L devices:R_0603 R21
-U 1 1 5B0DD244
-P 1800 6950
-F 0 "R21" H 1830 6970 50  0000 L CNN
-F 1 "4k7" H 1830 6910 50  0000 L CNN
-F 2 "resistors:R_0603" H 1800 6800 50  0001 C CNN
-F 3 "" H 1800 6950 50  0000 C CNN
-	1    1800 6950
-	1    0    0    -1  
-$EndComp
-$Comp
 L devices:C_0603 C10
 U 1 1 5B0DD473
 P 1450 6500
@@ -749,17 +613,6 @@ F 2 "resistors:R_0603" H 2950 6100 50  0001 C CNN
 F 3 "" H 2950 6250 50  0000 C CNN
 	1    2950 6250
 	0    1    1    0   
-$EndComp
-$Comp
-L power-supply:VCC #PWR023
-U 1 1 5B0DDAB7
-P 1800 6800
-F 0 "#PWR023" H 1800 6650 50  0001 C CNN
-F 1 "VCC" H 1800 6950 50  0000 C CNN
-F 2 "" H 1800 6800 50  0000 C CNN
-F 3 "" H 1800 6800 50  0000 C CNN
-	1    1800 6800
-	1    0    0    -1  
 $EndComp
 $Comp
 L devices:C_0603 C13
@@ -823,17 +676,13 @@ Wire Wire Line
 Wire Wire Line
 	4550 1400 4100 1400
 Wire Wire Line
-	6450 1400 6450 2450
-Wire Wire Line
 	9900 3200 6450 3200
 Wire Wire Line
-	6450 3200 6450 2900
+	8000 750  8100 750 
 Wire Wire Line
-	6300 1150 6400 1150
+	8100 750  8100 700 
 Wire Wire Line
-	6400 1150 6400 1100
-Wire Wire Line
-	6100 1150 6000 1150
+	7800 750  7700 750 
 Wire Wire Line
 	6350 1600 5750 1600
 Wire Wire Line
@@ -851,10 +700,6 @@ Wire Wire Line
 	9150 3000 9900 3000
 Wire Wire Line
 	9150 2900 9900 2900
-Wire Wire Line
-	9150 2800 9900 2800
-Wire Wire Line
-	9150 2700 9900 2700
 Wire Wire Line
 	9150 2500 9900 2500
 Wire Wire Line
@@ -901,11 +746,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 5250 8700 5300
 Wire Wire Line
-	8600 1750 8950 1750
-Wire Wire Line
 	8950 1750 8950 2100
-Wire Wire Line
-	8600 2500 8950 2500
 Wire Wire Line
 	8950 2500 8950 2200
 Wire Wire Line
@@ -924,8 +765,6 @@ Wire Wire Line
 	7900 1500 7900 1550
 Wire Wire Line
 	8200 1500 8300 1500
-Wire Wire Line
-	8400 1750 8250 1750
 Connection ~ 7900 2250
 Wire Wire Line
 	7100 1900 7100 1500
@@ -947,22 +786,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 800  10700 800 
 Connection ~ 10700 800 
-Wire Wire Line
-	1850 2000 2450 2000
-Wire Wire Line
-	3000 2000 3050 2000
-Wire Wire Line
-	3050 2250 3050 2300
-Wire Wire Line
-	2450 2300 2450 2250
-Wire Wire Line
-	2450 1700 2450 2000
-Connection ~ 2450 2000
-Wire Wire Line
-	3050 1700 3050 2000
-Connection ~ 3050 2000
-Wire Wire Line
-	3600 2000 3650 2000
 Wire Wire Line
 	3650 1700 3650 2000
 Connection ~ 3650 2000
@@ -1028,19 +851,10 @@ Connection ~ 2300 7000
 Wire Wire Line
 	2300 7400 2300 7450
 Wire Wire Line
-	1800 6850 1800 6800
-Wire Wire Line
-	1700 7100 1800 7100
-Wire Wire Line
-	1800 7050 1800 7100
-Connection ~ 1800 7100
-Wire Wire Line
 	1850 6500 1550 6500
 Wire Wire Line
-	600  7100 1500 7100
-Wire Wire Line
 	600  6500 1350 6500
-Text Label 750  7100 0    60   ~ 0
+Text Label 2100 7100 0    60   ~ 0
 SQ
 Text Label 750  6500 0    60   ~ 0
 AF_OUT
@@ -1534,28 +1348,6 @@ Wire Wire Line
 	7400 2850 7400 2900
 Connection ~ 7400 2900
 $Comp
-L devices:R_0603 R28
-U 1 1 5B1EAE17
-P 2750 1700
-F 0 "R28" H 2780 1720 50  0000 L CNN
-F 1 "DNI" H 2780 1660 50  0000 L CNN
-F 2 "resistors:R_0603" H 2750 1550 50  0001 C CNN
-F 3 "" H 2750 1700 50  0000 C CNN
-	1    2750 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L devices:R_0603 R29
-U 1 1 5B1EAF0F
-P 3350 1700
-F 0 "R29" H 3380 1720 50  0000 L CNN
-F 1 "DNI" H 3380 1660 50  0000 L CNN
-F 2 "resistors:R_0603" H 3350 1550 50  0001 C CNN
-F 3 "" H 3350 1700 50  0000 C CNN
-	1    3350 1700
-	0    1    1    0   
-$EndComp
-$Comp
 L devices:R_0603 R30
 U 1 1 5B1EAFF8
 P 3950 1700
@@ -1567,21 +1359,9 @@ F 3 "" H 3950 1700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 1700 2650 1700
-Wire Wire Line
-	2850 1700 3050 1700
-Wire Wire Line
-	3450 1700 3650 1700
-Wire Wire Line
 	4050 1700 4250 1700
-Connection ~ 3650 1700
-Connection ~ 3050 1700
 Text Label 4300 2000 0    60   ~ 0
 ANT0
-Text Label 3550 1700 0    60   ~ 0
-ANT1
-Text Label 2950 1700 0    60   ~ 0
-ANT2
 Text Label 2050 2000 0    60   ~ 0
 ANT3
 Text Notes 2400 2650 0    60   ~ 0
@@ -1960,32 +1740,14 @@ Wire Wire Line
 $Comp
 L power-supply:VIO #PWR056
 U 1 1 5B4D8E09
-P 6150 2400
-F 0 "#PWR056" H 6150 2250 50  0001 C CNN
-F 1 "VIO" H 6150 2550 50  0000 C CNN
-F 2 "" H 6150 2400 50  0000 C CNN
-F 3 "" H 6150 2400 50  0000 C CNN
-	1    6150 2400
+P 6450 2100
+F 0 "#PWR056" H 6450 1950 50  0001 C CNN
+F 1 "VIO" H 6450 2250 50  0000 C CNN
+F 2 "" H 6450 2100 50  0000 C CNN
+F 3 "" H 6450 2100 50  0000 C CNN
+	1    6450 2100
 	1    0    0    -1  
 $EndComp
-$Comp
-L devices:D_Schottky_Small D4
-U 1 1 5B4D909E
-P 6450 2550
-F 0 "D4" H 6400 2630 50  0000 L CNN
-F 1 "BAT46ZFILM" H 6170 2470 50  0000 L CNN
-F 2 "diodes:SOD-123" V 6450 2550 50  0001 C CNN
-F 3 "" V 6450 2550 50  0000 C CNN
-	1    6450 2550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6450 2900 6150 2900
-Wire Wire Line
-	6150 2900 6150 2650
-Connection ~ 6450 2900
-Wire Wire Line
-	6150 2450 6150 2400
 Text Notes 6600 5000 0    60   ~ 0
 place R4 and R5 if \nlevelshifter are not populated\n
 $Comp
@@ -2091,14 +1853,6 @@ Wire Wire Line
 Wire Wire Line
 	10700 800  10700 1200
 Wire Wire Line
-	2450 2000 2500 2000
-Wire Wire Line
-	2450 2000 2450 2050
-Wire Wire Line
-	3050 2000 3100 2000
-Wire Wire Line
-	3050 2000 3050 2050
-Wire Wire Line
 	3650 2000 3700 2000
 Wire Wire Line
 	3650 2000 3650 2050
@@ -2122,8 +1876,6 @@ Wire Wire Line
 	2300 6500 2300 6250
 Wire Wire Line
 	2300 7000 2300 7200
-Wire Wire Line
-	1800 7100 2400 7100
 Wire Wire Line
 	3950 7000 4500 7000
 Wire Wire Line
@@ -2159,8 +1911,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 1700 3850 1700
 Wire Wire Line
-	3050 1700 3250 1700
-Wire Wire Line
 	8650 4200 8650 4250
 Wire Wire Line
 	7800 4250 7800 4650
@@ -2178,8 +1928,6 @@ Wire Wire Line
 	6700 4350 6700 4550
 Wire Wire Line
 	6600 3450 6600 3400
-Wire Wire Line
-	6450 2900 6450 2650
 Wire Wire Line
 	5950 3450 6200 3450
 Wire Wire Line
@@ -2336,8 +2084,6 @@ Connection ~ 9750 4300
 Wire Wire Line
 	9750 4300 9900 4300
 Connection ~ 8250 2500
-Wire Wire Line
-	8250 2500 8400 2500
 $Comp
 L MODULE_RF:DMR818 U1
 U 1 1 5B8643C0
@@ -2354,8 +2100,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 1800 7300 1800
 Wire Wire Line
-	5750 1400 5800 1400
-Wire Wire Line
 	6800 550  3600 550 
 Wire Wire Line
 	6800 550  6800 3650
@@ -2368,7 +2112,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 650  6700 4350
 Wire Wire Line
-	5300 2500 5300 3600
+	5300 2500 5300 2550
 Wire Wire Line
 	4800 3600 5300 3600
 Wire Wire Line
@@ -2384,11 +2128,6 @@ Wire Wire Line
 	5000 2600 5100 2600
 Wire Wire Line
 	5100 2700 5100 2600
-Wire Wire Line
-	5800 1150 5800 1400
-Connection ~ 5800 1400
-Wire Wire Line
-	5800 1400 6450 1400
 NoConn ~ 5750 1500
 NoConn ~ 5750 1700
 $Comp
@@ -2412,4 +2151,200 @@ Connection ~ 5200 950
 Wire Wire Line
 	5200 950  5100 950 
 NoConn ~ 5750 2000
+Wire Wire Line
+	1850 2000 3650 2000
+$Comp
+L devices:R_0603 R2
+U 1 1 5BC06891
+P 8650 2000
+F 0 "R2" H 8680 2020 50  0000 L CNN
+F 1 "100" H 8680 1960 50  0000 L CNN
+F 2 "resistors:R_0603" H 8650 1850 50  0001 C CNN
+F 3 "" H 8650 2000 50  0000 C CNN
+	1    8650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:R_0603 R3
+U 1 1 5BC06A24
+P 8650 2800
+F 0 "R3" H 8680 2820 50  0000 L CNN
+F 1 "100" H 8680 2760 50  0000 L CNN
+F 2 "resistors:R_0603" H 8650 2650 50  0001 C CNN
+F 3 "" H 8650 2800 50  0000 C CNN
+	1    8650 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 1750 8500 1750
+Wire Wire Line
+	8550 2000 8500 2000
+Wire Wire Line
+	8500 2000 8500 1750
+Connection ~ 8500 1750
+Wire Wire Line
+	8500 1750 8550 1750
+Wire Wire Line
+	8250 2500 8500 2500
+Connection ~ 8500 2500
+Wire Wire Line
+	8500 2500 8550 2500
+Wire Wire Line
+	8750 2500 8950 2500
+Wire Wire Line
+	8750 1750 8950 1750
+Wire Wire Line
+	8550 2800 8500 2800
+Wire Wire Line
+	8500 2500 8500 2800
+Wire Wire Line
+	8750 2800 9900 2800
+Wire Wire Line
+	8850 2700 8850 2000
+Wire Wire Line
+	8850 2000 8750 2000
+Wire Wire Line
+	8850 2700 9900 2700
+Text Label 8250 1750 0    60   ~ 0
+PD_Q
+Text Label 8250 2500 0    60   ~ 0
+PTT_Q
+$Comp
+L devices:C_0603 C1
+U 1 1 5BCEA35E
+P 5400 2700
+F 0 "C1" H 5410 2770 50  0000 L CNN
+F 1 "10u" H 5410 2620 50  0000 L CNN
+F 2 "capacitors:C_0805" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2700 50  0000 C CNN
+	1    5400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C2
+U 1 1 5BCEA576
+P 5650 2700
+F 0 "C2" H 5660 2770 50  0000 L CNN
+F 1 "100n" H 5660 2620 50  0000 L CNN
+F 2 "capacitors:C_0603" H 5650 2550 50  0001 C CNN
+F 3 "" H 5650 2700 50  0000 C CNN
+	1    5650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR09
+U 1 1 5BCEA664
+P 5400 2850
+F 0 "#PWR09" H 5400 2600 50  0001 C CNN
+F 1 "GND" H 5400 2700 50  0000 C CNN
+F 2 "" H 5400 2850 50  0000 C CNN
+F 3 "" H 5400 2850 50  0000 C CNN
+	1    5400 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR010
+U 1 1 5BCEA707
+P 5650 2850
+F 0 "#PWR010" H 5650 2600 50  0001 C CNN
+F 1 "GND" H 5650 2700 50  0000 C CNN
+F 2 "" H 5650 2850 50  0000 C CNN
+F 3 "" H 5650 2850 50  0000 C CNN
+	1    5650 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2550 5400 2550
+Wire Wire Line
+	5650 2550 5650 2600
+Connection ~ 5300 2550
+Wire Wire Line
+	5300 2550 5300 3600
+Wire Wire Line
+	5400 2600 5400 2550
+Connection ~ 5400 2550
+Wire Wire Line
+	5400 2550 5650 2550
+Wire Wire Line
+	5400 2800 5400 2850
+Wire Wire Line
+	5650 2800 5650 2850
+$Comp
+L devices:Q_NMOS_GSD Q4
+U 1 1 5BD5563D
+P 7150 950
+F 0 "Q4" H 7450 1000 50  0000 R CNN
+F 1 "2N7002" H 7800 900 50  0000 R CNN
+F 2 "SOT_TO:SOT-23" H 7350 1050 50  0001 C CNN
+F 3 "" H 7150 950 50  0000 C CNN
+	1    7150 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR019
+U 1 1 5BD8AD71
+P 7250 1200
+F 0 "#PWR019" H 7250 950 50  0001 C CNN
+F 1 "GND" H 7250 1050 50  0000 C CNN
+F 2 "" H 7250 1200 50  0000 C CNN
+F 3 "" H 7250 1200 50  0000 C CNN
+	1    7250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1150 7250 1200
+Wire Wire Line
+	7500 750  7250 750 
+Wire Wire Line
+	6200 1400 6200 950 
+Wire Wire Line
+	6200 950  6950 950 
+Wire Wire Line
+	5750 1400 6200 1400
+$Comp
+L devices:Q_NMOS_GSD Q1
+U 1 1 5BDDCA63
+P 6100 2650
+F 0 "Q1" H 6400 2700 50  0000 R CNN
+F 1 "2N7002" H 6750 2600 50  0000 R CNN
+F 2 "SOT_TO:SOT-23" H 6300 2750 50  0001 C CNN
+F 3 "" H 6100 2650 50  0000 C CNN
+	1    6100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power-supply:GND #PWR018
+U 1 1 5BDDCCDC
+P 6200 2900
+F 0 "#PWR018" H 6200 2650 50  0001 C CNN
+F 1 "GND" H 6200 2750 50  0000 C CNN
+F 2 "" H 6200 2900 50  0000 C CNN
+F 3 "" H 6200 2900 50  0000 C CNN
+	1    6200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 2350 6450 2400
+Wire Wire Line
+	6200 2450 6200 2400
+Wire Wire Line
+	6200 2400 6450 2400
+Connection ~ 6450 2400
+Wire Wire Line
+	6450 2400 6450 3200
+Wire Wire Line
+	6200 2850 6200 2900
+Wire Wire Line
+	6450 2150 6450 2100
+Wire Wire Line
+	6200 1400 6200 2250
+Wire Wire Line
+	6200 2250 5900 2250
+Wire Wire Line
+	5900 2250 5900 2650
+Connection ~ 6200 1400
+Text Label 5850 1400 0    60   ~ 0
+SQ_Q
+Wire Wire Line
+	1750 7100 2400 7100
 $EndSCHEMATC
