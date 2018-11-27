@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "ArduTrx Shield"
-Date "2018-08-21"
-Rev "x1.1"
-Comp ""
+Title "ArduTrxDMR Shield"
+Date "2018-11-27"
+Rev "x1.0"
+Comp "generationmake"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 $Comp
 L MODULE_compute:ARDUINO CN2
@@ -869,8 +869,8 @@ Text Notes 4950 7050 0    60   ~ 0
 differential output\nfor speaker
 Text Notes 2550 7600 0    60   ~ 0
 LM4861 also works
-Text Notes 700  3000 0    60   ~ 0
-filter for 2m version\nchebyshev low pass filter\ncutoff frequency: 185 MHz\npassband ripple: 0.5 dB\nimpedance: 50 Ohm 
+Text Notes 2500 2750 0    60   ~ 0
+filter according to DMR818 datasheet
 $Comp
 L voltage-regulators:LT1085 U2
 U 1 1 5B0E1FEF
@@ -1310,9 +1310,9 @@ ANT0
 Text Label 2050 2000 0    60   ~ 0
 ANT3
 Text Notes 2400 2650 0    60   ~ 0
-place R28..30 only if no filter necessary
+place R30 only if no filter necessary
 Text Notes 500  1350 0    47   ~ 0
-Copyright generationmake 2018\nsee full project documentation at http://ardutrx.generationmake.de\n\nThis   documentation   describes   Open   Hardware   and   is   licensed   \nunder   the CERN OHL v. 1.2.\nYou may redistribute and modify this documentation under the terms \nof the CERN OHL v.1.2. (http://ohwr.org/cernohl). This documentation \nis distributed WITHOUT   ANY   EXPRESS   OR   IMPLIED   WARRANTY, \nINCLUDING   OF MERCHANTABILITY,   SATISFACTORY   QUALITY   AND \nFITNESS   FOR   A PARTICULAR   PURPOSE.   Please   see   the   CERN   \nOHL   v.1.2  for   applicable conditions
+Copyright generationmake 2018\nsee full project documentation at http://ardutrx.generationmake.de
 $Comp
 L devices:CP_Small C15
 U 1 1 5B4C7944
@@ -2396,4 +2396,6 @@ Wire Wire Line
 	7300 1200 7450 1200
 Wire Wire Line
 	7650 1200 7750 1200
+Text Notes 7000 6900 0    43   ~ 0
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY\nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions
 $EndSCHEMATC
