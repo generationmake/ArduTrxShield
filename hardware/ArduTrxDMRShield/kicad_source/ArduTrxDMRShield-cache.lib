@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CON_wuerth:60312202114509
+# CON_wuerth_60312202114509
 #
-DEF CON_wuerth:60312202114509 CN 0 40 Y Y 1 F N
+DEF CON_wuerth_60312202114509 CN 0 40 Y Y 1 F N
 F0 "CN" 0 400 60 H I C CNN
-F1 "CON_wuerth:60312202114509" 50 -350 60 H V C CNN
+F1 "CON_wuerth_60312202114509" 50 -350 60 H V C CNN
 F2 "CON_wuerth:WR-SMA-PCB" -100 300 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -23,11 +23,11 @@ X ~ 5 200 -250 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# CON_wuerth:691322310002
+# CON_wuerth_691322310002
 #
-DEF CON_wuerth:691322310002 CN 0 40 Y N 1 F N
+DEF CON_wuerth_691322310002 CN 0 40 Y N 1 F N
 F0 "CN" 0 150 50 H V C CNN
-F1 "CON_wuerth:691322310002" 100 0 50 V V C CNN
+F1 "CON_wuerth_691322310002" 100 0 50 V V C CNN
 F2 "CON_wuerth:WR-TBL_691322310002" -100 50 50 H V C CNN
 F3 "" 0 -300 50 H V C CNN
 DRAW
@@ -39,11 +39,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# IC_audio:LM4871
+# IC_audio_LM4871
 #
-DEF IC_audio:LM4871 U 0 40 Y Y 1 F N
+DEF IC_audio_LM4871 U 0 40 Y Y 1 F N
 F0 "U" 0 250 60 H V C CNN
-F1 "IC_audio:LM4871" 0 -250 60 H V C CNN
+F1 "IC_audio_LM4871" 0 -250 60 H V C CNN
 F2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" -100 150 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -59,11 +59,11 @@ X VO2 8 500 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# IC_levelshifter:SN74LVC1T45
+# IC_levelshifter_SN74LVC1T45
 #
-DEF IC_levelshifter:SN74LVC1T45 IC 0 40 Y Y 1 F N
+DEF IC_levelshifter_SN74LVC1T45 IC 0 40 Y Y 1 F N
 F0 "IC" 50 350 60 H V C CNN
-F1 "IC_levelshifter:SN74LVC1T45" 250 -50 60 H V C CNN
+F1 "IC_levelshifter_SN74LVC1T45" 250 -50 60 H V C CNN
 F2 "SOT_TO:SOT-23-6" 300 -150 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -77,11 +77,11 @@ X VCCB 6 600 250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# L_filter:744912156
+# L_filter_744912156
 #
-DEF L_filter:744912156 L 0 0 N N 1 F N
+DEF L_filter_744912156 L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "L_filter:744912156" 0 -50 50 H V C CNN
+F1 "L_filter_744912156" 0 -50 50 H V C CNN
 F2 "L_filter:WE-CAIR_4248" -100 0 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -94,11 +94,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MODULE_RF:DMR818
+# MODULE_RF_DMR818
 #
-DEF MODULE_RF:DMR818 U 0 40 Y Y 1 F N
+DEF MODULE_RF_DMR818 U 0 40 Y Y 1 F N
 F0 "U" -350 850 60 H V C CNN
-F1 "MODULE_RF:DMR818" 350 -350 60 H V C CNN
+F1 "MODULE_RF_DMR818" 350 -350 60 H V C CNN
 F2 "MODULE_RF:DMR818" -100 600 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -126,11 +126,11 @@ X GND 9 -50 -500 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# MODULE_compute:ARDUINO
+# MODULE_compute_ARDUINO
 #
-DEF MODULE_compute:ARDUINO CN 0 40 Y Y 1 F N
+DEF MODULE_compute_ARDUINO CN 0 40 Y Y 1 F N
 F0 "CN" 100 1750 60 H V C CNN
-F1 "MODULE_compute:ARDUINO" 200 -1850 60 H V C CNN
+F1 "MODULE_compute_ARDUINO" 200 -1850 60 H V C CNN
 F2 "MODULE_compute:ARDUINO" 550 1750 60 H I C CNN
 F3 "" 650 800 60 H V C CNN
 DRAW
@@ -173,11 +173,11 @@ X 9/PWM 9 -200 850 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# devices:CP_Small
+# devices_CP_Small
 #
-DEF devices:CP_Small C 0 10 N N 1 F N
+DEF devices_CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "devices:CP_Small" 10 -80 50 H V L CNN
+F1 "devices_CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -198,11 +198,11 @@ X ~ 2 0 -100 73 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# devices:C_0603
+# devices_C_0603
 #
-DEF devices:C_0603 C 0 10 N N 1 F N
+DEF devices_C_0603 C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "devices:C_0603" 10 -80 50 H V L CNN
+F1 "devices_C_0603" 10 -80 50 H V L CNN
 F2 "capacitors:C_0603" 0 -150 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -220,11 +220,11 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# devices:Led_Small
+# devices_Led_Small
 #
-DEF devices:Led_Small D 0 10 N N 1 F N
+DEF devices_Led_Small D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "devices:Led_Small" -175 -100 50 H V L CNN
+F1 "devices_Led_Small" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V V C CNN
 F3 "" 0 0 50 V V C CNN
 $FPLIST
@@ -241,11 +241,11 @@ X A 2 100 0 70 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# devices:Q_NMOS_GSD
+# devices_Q_NMOS_GSD
 #
-DEF devices:Q_NMOS_GSD Q 0 0 Y N 1 F N
+DEF devices_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 300 50 50 H V R CNN
-F1 "devices:Q_NMOS_GSD" 650 -50 50 H V R CNN
+F1 "devices_Q_NMOS_GSD" 650 -50 50 H V R CNN
 F2 "" 200 100 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -267,11 +267,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# devices:R_0603
+# devices_R_0603
 #
-DEF devices:R_0603 R 0 10 N N 1 F N
+DEF devices_R_0603 R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "devices:R_0603" 30 -40 50 H V L CNN
+F1 "devices_R_0603" 30 -40 50 H V L CNN
 F2 "resistors:R_0603" 0 -150 50 H I C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -285,11 +285,11 @@ X ~ 2 0 -100 30 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mechanical-connectors:CONN_01X02
+# mechanical-connectors_CONN_01X02
 #
-DEF mechanical-connectors:CONN_01X02 P 0 40 Y N 1 F N
+DEF mechanical-connectors_CONN_01X02 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "mechanical-connectors:CONN_01X02" 100 0 50 V V C CNN
+F1 "mechanical-connectors_CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -307,11 +307,11 @@ X P2 2 -200 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mechanical-connectors:CONN_01X03
+# mechanical-connectors_CONN_01X03
 #
-DEF mechanical-connectors:CONN_01X03 P 0 40 Y N 1 F N
+DEF mechanical-connectors_CONN_01X03 P 0 40 Y N 1 F N
 F0 "P" 0 200 50 H V C CNN
-F1 "mechanical-connectors:CONN_01X03" 100 0 50 V V C CNN
+F1 "mechanical-connectors_CONN_01X03" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -331,11 +331,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mechanical-connectors:CON_KLINKE3
+# mechanical-connectors_CON_KLINKE3
 #
-DEF mechanical-connectors:CON_KLINKE3 CN 0 40 Y Y 1 F N
+DEF mechanical-connectors_CON_KLINKE3 CN 0 40 Y Y 1 F N
 F0 "CN" -50 200 60 H V C CNN
-F1 "mechanical-connectors:CON_KLINKE3" -50 -150 60 H V C CNN
+F1 "mechanical-connectors_CON_KLINKE3" -50 -150 60 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -349,11 +349,11 @@ X ~ 3 -450 100 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# mechanical-switches:ALPS_EC11E
+# mechanical-switches_ALPS_EC11E
 #
-DEF mechanical-switches:ALPS_EC11E SW 0 40 Y Y 1 F N
+DEF mechanical-switches_ALPS_EC11E SW 0 40 Y Y 1 F N
 F0 "SW" 550 700 60 H V C CNN
-F1 "mechanical-switches:ALPS_EC11E" 550 -50 60 H V C CNN
+F1 "mechanical-switches_ALPS_EC11E" 550 -50 60 H V C CNN
 F2 "mechanical-switches:ALPS_EC11E" 850 50 60 H I C CNN
 F3 "" 850 50 60 H V C CNN
 DRAW
@@ -383,11 +383,11 @@ X ~ E 1100 550 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# mechanical-switches:SW_DIP_x1
+# mechanical-switches_SW_DIP_x1
 #
-DEF mechanical-switches:SW_DIP_x1 S 0 40 Y Y 1 F N
+DEF mechanical-switches_SW_DIP_x1 S 0 40 Y Y 1 F N
 F0 "S" 0 -100 50 H V C CNN
-F1 "mechanical-switches:SW_DIP_x1" 0 100 50 H V C CNN
+F1 "mechanical-switches_SW_DIP_x1" 0 100 50 H V C CNN
 F2 "" -50 0 50 H V C CNN
 F3 "" -50 0 50 H V C CNN
 $FPLIST
@@ -405,11 +405,11 @@ X ~ 2 300 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# mechanical-switches:TAST_HOR
+# mechanical-switches_TAST_HOR
 #
-DEF mechanical-switches:TAST_HOR SW 0 40 Y Y 1 F N
+DEF mechanical-switches_TAST_HOR SW 0 40 Y Y 1 F N
 F0 "SW" 0 200 60 H V C CNN
-F1 "mechanical-switches:TAST_HOR" 0 -200 60 H V C CNN
+F1 "mechanical-switches_TAST_HOR" 0 -200 60 H V C CNN
 F2 "mechanical-switches:WE_4312x6xxx7x6" 850 50 60 H I C CNN
 F3 "" 850 50 60 H V C CNN
 DRAW
@@ -428,11 +428,27 @@ X ~ 4 300 -100 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# power-supply:+5V
+# power-supply_+3V3
 #
-DEF power-supply:+5V #PWR 0 0 Y Y 1 F P
+DEF power-supply_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power-supply:+5V" 0 140 50 H V C CNN
+F1 "power-supply_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+ALIAS +3.3V
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power-supply_+5V
+#
+DEF power-supply_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power-supply_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -443,11 +459,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power-supply:GND
+# power-supply_GND
 #
-DEF power-supply:GND #PWR 0 0 Y Y 1 F P
+DEF power-supply_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power-supply:GND" 0 -150 50 H V C CNN
+F1 "power-supply_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -456,11 +472,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power-supply:VCC
+# power-supply_VCC
 #
-DEF power-supply:VCC #PWR 0 0 Y Y 1 F P
+DEF power-supply_VCC #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power-supply:VCC" 0 150 50 H V C CNN
+F1 "power-supply_VCC" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -470,11 +486,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power-supply:VIN
+# power-supply_VIN
 #
-DEF power-supply:VIN #PWR 0 0 Y Y 1 F P
+DEF power-supply_VIN #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power-supply:VIN" 0 150 50 H V C CNN
+F1 "power-supply_VIN" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -484,11 +500,11 @@ X VIN 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power-supply:VIO
+# power-supply_VIO
 #
-DEF power-supply:VIO #PWR 0 0 Y Y 1 F P
+DEF power-supply_VIO #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power-supply:VIO" 0 150 50 H V C CNN
+F1 "power-supply_VIO" 0 150 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
@@ -498,11 +514,11 @@ X VIO 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# voltage-regulators:LT1085
+# voltage-regulators_LT1085
 #
-DEF voltage-regulators:LT1085 U 0 40 Y Y 1 F N
+DEF voltage-regulators_LT1085 U 0 40 Y Y 1 F N
 F0 "U" -400 250 60 H V C CNN
-F1 "voltage-regulators:LT1085" -300 -200 60 H V C CNN
+F1 "voltage-regulators_LT1085" -300 -200 60 H V C CNN
 F2 "SOT_TO:TO-263-3Lead" -50 -300 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
