@@ -15,7 +15,7 @@
 <h3>Overview</h3>
 <img src="images/ardutrx_1.1_hardware_description.png"><br/>
 <p>The hardware is built around the popular HF modules from Dorji or NiceRF and utilizes all necessary circuitry to get the module running and audio in and out of it.</p>
-<h3>description of circuit</h3>
+<h3>Description of circuit</h3>
 <h4>HF module (U1)</h4>
 <p>A HF module from Dorji or NiceRF is used on the shield. 2 meter (144 MHz) or 70 centimeter (440 MHz) modules can be soldered.</p>
 <h4>HF filter (L1..L3 and C1..C4)</h4>
@@ -36,6 +36,40 @@
 <p>The antenna connector is a SMA connector like it is used on many Hand-helds.</p>
 <h4>hand mic connector (CN3 and CN4)</h4>
 <p>CN3 and CN4 form a hand mic connector which is compatible to Kenwood or Baofeng.</p>
+
+<h3>Arduino pin usage</h3>
+<table border>
+<tr><th>Arduino pin</th><th>direction on Arduino</th><th>usage</th></tr>
+<tr><td>0/RX</td><td>input</td><td>serial communication with HF module<br/>Attention: also used for programming the Arduino</td></tr>
+<tr><td>1/TX</td><td>output</td><td>serial communication with HF module<br/>Attention: also used for programming the Arduino</td></tr>
+<tr><td>2</td><td>input</td><td>squelch. low=RX active; high=no RX</td></tr>
+<tr><td>3</td><td>output</td><td>analog / pwm audio output; for example for 1750 Hz tone.</td></tr>
+<tr><td>4</td><td>-</td><td>not used</td></tr>
+<tr><td>5</td><td>-</td><td>not used</td></tr>
+<tr><td>6</td><td>-</td><td>not used</td></tr>
+<tr><td>7</td><td>-</td><td>not used</td></tr>
+<tr><td>8</td><td>-</td><td>not used</td></tr>
+<tr><td>9</td><td>-</td><td>not used</td></tr>
+<tr><td>10</td><td>-</td><td>not used</td></tr>
+<tr><td>11</td><td>output</td><td>PTT: low=no TX (RX); high=PTT active</td></tr>
+<tr><td>12</td><td>output</td><td>Power down: low=sleep mode; high= normal mode</td></tr>
+<tr><td>13</td><td>output</td><td>Output power: low=1W; high=0.5W</td></tr>
+<tr><td>A0</td><td>-</td><td>not used</td></tr>
+<tr><td>A1</td><td>input</td><td>measurement input for VIN or serial input of GPS</td></tr>
+<tr><td>A2</td><td>input</td><td>audio input to Arduino</td></tr>
+<tr><td>A3</td><td>input</td><td>rotary encoder signal A</td></tr>
+<tr><td>A4</td><td>input</td><td>rotary encoder signal B</td></tr>
+<tr><td>A5</td><td>input</td><td>rotary encoder switch</td></tr>
+<tr><td>AREF</td><td>-</td><td>not used</td></tr>
+<tr><td>SCL</td><td>-</td><td>not used</td></tr>
+<tr><td>SDA</td><td>-</td><td>not used</td></tr>
+<tr><td>RESET</td><td>-</td><td>not used</td></tr>
+<tr><td>IOREF</td><td>-</td><td>reference voltage for level shifters (U4 and U5)</td></tr>
+<tr><td>VIN</td><td>-</td><td>input voltage for voltage regulator (U2)</td></tr>
+<tr><td>3.3V</td><td>-</td><td>not used</td></tr>
+<tr><td>5V</td><td>-</td><td>supply voltage for CN5 (GPS connector)</td></tr>
+<tr><td>GND</td><td>-</td><td>GND</td></tr>
+</table>
 
 <h3>Versions</h3>
 There exists two versions of the hardware which are both software compatible:
@@ -125,7 +159,7 @@ The software is released under GPL v2</p>
 <br/>
 
 <p>If you have any questions contact me via email at bernhard@generationmake.de, make an issue at github or send me a message at twitter (<a href="https://twitter.com/generation_make">https://twitter.com/generation_make</a>).</p>
-<p>Last update: 28. nov. 2018</p>
+<p>Last update: 02. dec. 2018</p>
 </body>
 </html>
 
