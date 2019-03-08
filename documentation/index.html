@@ -144,6 +144,49 @@ Compatibility with the following Arduino boards has been tested. There may be mo
 <p>You can find the software on github: <a href="https://github.com/generationmake/ArduTrx">https://github.com/generationmake/ArduTrx</a><br/>
 The software is released under GPL v2</p>
 
+<h3>Introduction into the software</h3>
+<p>In the source code in line 50 to 52 you have to define which hf module you use.</p>
+
+<p>When you start ArduTrx it will display the version and release date for a few seconds during startup. After that the main menu is displayed.</p>
+
+<p>In the main menu on the first line on the left it shows &quot;ArduTrx&quot;. You can change this to your Callsign or whatever you like in the source code in line 48.</p>
+
+<p>In the first line on the right it shows the used frequency. The frequency can be changed by turning the rotary encoder. If there is &quot;-&quot; in front of the frequency an offset for repeater operation is used. it is defined in line 81 to 83 or 90 to 92.</p>
+
+<p>In the second line there are several parameters.</p>
+<ul>
+<li><b>VOL</b> for volume</li>
+<li><b>SQ</b> for sqelch level</li>
+<li><b>Hi/Lo</b> for output power</li>
+<li><b>M</b> for menu</li>
+</ul>
+
+<p>You can change the active point by pushing left or right button. The active value is blinking. You can increase or decrease the value by pushing up or down button.<br/>
+When you are at M for menu pushing up or down will bring you to the menu. You can skip through the options by pushing left or right. The menu has the following options:</p>
+
+<ul>
+<li><b>Scan</b> will scan for active signals in the scan range (source code line 77/78 or 86/87)</li>
+<li><b>CTCSS</b> will set the CTCSS tone to the selected frequency</li>
+<li><b>Filt PRE/DE-EMPH</b> enables the filter option of the hf module</li>
+<li><b>Filter Highpass</b> enables the filter option of the hf module</li>
+<li><b>Filter Lowpass</b> enables the filter option of the hf module</li>
+<li><b>factory settings</b> resets to the settings in source code line 117 to 134</li>
+<li><b>module check</b> checks if the hf module responds to commands</li>
+<li><b>input voltage</b> shows the input voltage in mV</li>
+<li><b>set under voltage</b> allows the setting of an minimum input voltage to protect batteries. if the voltage is below the hf module will be sent to power down</li>
+<li><b>SA818 version</b> gives you the version of the module if SA818 is used</li>
+<li><b>SA18 RSSI</b> gives you information on the receive signal strength if SA818 is used</li>
+<li><b>SA818 tail tone</b> enables or disables the tail tone if SA818 is used</li>
+<li><b>back to main menu</b> brings you back to the main menu</li>
+</ul>
+
+<p>By pushing down the active option can be changed. Then pushing right or left changes the value of the option. Pushing up saves the value and the next options may be changed.</p>
+
+<p>Pushing the select button in the main menu will activate PTT and send a 1750 Hz tone for repeater operation.<br/>
+Pushing the rotary encoder in the main menu will switch from high to low power and backwards.<br/>
+PTT is activated by pushing the PTT button (SW1) on the right top or pushing the PTT button on the hand microphone.<br/>
+Switch S1 has to be closed all the time except during programming.</p>
+
 <h2>Images</h2>
 <img src="images/ardutrx_pcb_1.0.jpg">
 <p>The fully assembled shield ready to plug into an Arduino board</p>
@@ -155,11 +198,17 @@ The software is released under GPL v2</p>
 <br/>
 <img src="images/ardutrx_first_prototype.jpg">
 <p>This was the first prototype</p>
+
+<h2>Presentations</h2>
+<table border>
+<tr><th>Date</th><th>Location</th><th>File</th></tr>
+<tr><td>March 3rd 2019</td><td>Make Munich</td><td><a href="presentations/ArduTrx_Vortrag_makemunich2019.pdf">ArduTrx_Vortrag_makemunich2019.pdf</a> (in German)</td></tr>
+</table>
 <br/>
 <br/>
 
 <p>If you have any questions contact me via email at bernhard@generationmake.de, make an issue at github or send me a message at twitter (<a href="https://twitter.com/generation_make">https://twitter.com/generation_make</a>).</p>
-<p>Last update: 02. dec. 2018</p>
+<p>Last update: 08. mar. 2019</p>
 </body>
 </html>
 
