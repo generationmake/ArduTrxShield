@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bernhard/projects/ArduTrx/hardware/DummyLoad/kicad_source/DummyLoad/DummyLoad.sch)
-    (date "Sa 27 Apr 2019 21:17:09 CEST")
+    (date "Sa 27 Apr 2019 23:25:58 CEST")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -22,7 +22,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC4A90F))
     (comp (ref CN1)
-      (value 60312202114509)
+      (value CON-SMA-EDGE-S-ND)
       (footprint CON_wuerth:WR-SMA-PCB)
       (libsource (lib CON_wuerth) (part 60312202114509) (description "WR-SMA PCB End Launch Jack Round Post for 1.6mm PCB"))
       (sheetpath (names /) (tstamps /))
@@ -322,7 +322,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5CC4B709))
     (comp (ref CN2)
-      (value 60312202114509)
+      (value CON-SMA-EDGE-S-ND)
       (footprint CON_wuerth:WR-SMA-PCB)
       (libsource (lib CON_wuerth) (part 60312202114509) (description "WR-SMA PCB End Launch Jack Round Post for 1.6mm PCB"))
       (sheetpath (names /) (tstamps /))

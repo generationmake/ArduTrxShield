@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 19)
+    (drawings 20)
     (tracks 197)
     (zones 0)
     (modules 55)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1.3)
+    (last_trace_width 0.25)
     (user_trace_width 1.3)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
@@ -194,7 +194,7 @@
     (fp_text reference CN1 (at 0 -7 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 60312202114509 (at 0 -0.5 180) (layer F.Fab)
+    (fp_text value CON-SMA-EDGE-S-ND (at 0 -0.5 180) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -4.8 1.3) (end -4.8 -5.4) (layer F.SilkS) (width 0.15))
@@ -228,7 +228,7 @@
     (fp_text reference CN2 (at 0 -6.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 60312202114509 (at 0 -0.5) (layer F.Fab)
+    (fp_text value CON-SMA-EDGE-S-ND (at 0 -0.5) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.2 1.3) (end -3.2 8.9) (layer F.SilkS) (width 0.15))
@@ -2235,6 +2235,9 @@
       (xy 5.541591 2.802653)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "Licensed under \nCERN OHL v 1.2" (at 87.5 113.5 90) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_circle (center 87 104) (end 89 104) (layer B.Mask) (width 2))
   (gr_circle (center 113 104) (end 115 104) (layer B.Mask) (width 2))
   (gr_circle (center 113 136) (end 115 136) (layer B.Mask) (width 2))

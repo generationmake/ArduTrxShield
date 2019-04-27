@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:DummyLoad-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -29,7 +30,7 @@ L CON_wuerth:60312202114509 CN1
 U 1 1 5CC4AA26
 P 2600 2950
 F 0 "CN1" H 2406 3447 60  0000 C CNN
-F 1 "60312202114509" H 2406 3341 60  0000 C CNN
+F 1 "CON-SMA-EDGE-S-ND" H 2406 3341 60  0000 C CNN
 F 2 "CON_wuerth:WR-SMA-PCB" H 2406 3341 60  0001 C CNN
 F 3 "" H 2600 2950 60  0000 C CNN
 	1    2600 2950
@@ -866,7 +867,7 @@ L CON_wuerth:60312202114509 CN2
 U 1 1 5CC87714
 P 7950 5000
 F 0 "CN2" H 7323 5075 60  0000 R CNN
-F 1 "60312202114509" H 7323 4969 60  0000 R CNN
+F 1 "CON-SMA-EDGE-S-ND" H 7323 4969 60  0000 R CNN
 F 2 "CON_wuerth:WR-SMA-PCB" H 7322 4969 60  0001 R CNN
 F 3 "" H 7950 5000 60  0000 C CNN
 	1    7950 5000
@@ -922,4 +923,10 @@ Wire Wire Line
 Connection ~ 4200 4650
 Wire Wire Line
 	4200 3750 4200 3700
+Text Notes 7350 5700 0    50   ~ 0
+use Digikey CON-SMA-EDGE-S-ND for CN1 and CN2
+Text Notes 5650 5200 0    50   ~ 0
+HF out is -20 dB of input
+Text Notes 1500 6350 0    50   ~ 0
+use standard 0805 resistors with 125 mW to get a 6,25 W dummy load\nuse Digikey P16057CT-ND resistors with 500 mW to get a 25 W dummy load
 $EndSCHEMATC
