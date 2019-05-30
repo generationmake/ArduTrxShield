@@ -5,14 +5,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "ArduTrx Dummy Load"
+Date "2019-05-30"
+Rev "1.0"
+Comp "generationmake"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 $Comp
 L devices:R_0805 R1
@@ -929,4 +929,8 @@ Text Notes 5650 5200 0    50   ~ 0
 HF out is -20 dB of input
 Text Notes 1500 6350 0    50   ~ 0
 use standard 0805 resistors with 125 mW to get a 6,25 W dummy load\nuse Digikey P16057CT-ND resistors with 500 mW to get a 25 W dummy load
+Text Notes 750  800  0    50   ~ 0
+Copyright generationmake 2019\nsee full project documentation at http://ardutrx.generationmake.de
+Text Notes 7000 6900 0    43   ~ 0
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl).\nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY\nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions
 $EndSCHEMATC

@@ -1,0 +1,23 @@
+Drill report for /home/bernhard/projects/ArduTrx/hardware/DummyLoad/kicad_source/DummyLoad.kicad_pcb
+Created on Do 30 Mai 2019 10:34:15 CEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DummyLoad-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (55 holes)
+    T2  3,20mm  0,126"  (4 holes)
+
+    Total plated holes count 59
+
+
+Drill file 'DummyLoad-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
