@@ -1,52 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ATX_connector
-LIBS:CAN-transceiver
-LIBS:come_connector
-LIBS:CON_wuerth
-LIBS:D_esdprotection
-LIBS:devices
-LIBS:displayport_connector
-LIBS:displays
-LIBS:electrical-connectors
-LIBS:eth_usb_connectors_combos
-LIBS:ftdi
-LIBS:IC_batterycharger
-LIBS:IC_clockbuffer
-LIBS:IC_interface_i2c
-LIBS:IC_levelshifter
-LIBS:IC_loadswitch
-LIBS:IC_microcontroller_ST
-LIBS:IC_rtc
-LIBS:IC_sensor
-LIBS:IC_transceiver_can
-LIBS:IC_transceiver_rs
-LIBS:IC_usbhub
-LIBS:interface
-LIBS:LED-controllers
-LIBS:L_filter
-LIBS:L_power
-LIBS:mechanical-connectors
-LIBS:mechanical-switches
-LIBS:MECH_smd-contact-finger
-LIBS:MECH_smd-mounting
-LIBS:MECH_smd-spacer
-LIBS:MEMS
-LIBS:microcontrollers
-LIBS:MODULE_compute
-LIBS:motor-driver
-LIBS:opamps
-LIBS:PCB_touch
-LIBS:PCIe_connectors
-LIBS:power-monitors
-LIBS:power-supply
-LIBS:sata_con
-LIBS:transistors
-LIBS:usb_connector_header
-LIBS:voltage-regulators
-LIBS:MODULE_RF
-LIBS:IC_audio
-LIBS:ArduTrxShield-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -61,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MODULE_compute:ARDUINO CN2
+L ArduTrxShield-rescue:ARDUINO-MODULE_compute CN2
 U 1 1 5B0B2CBD
 P 10100 3250
 F 0 "CN2" H 10200 5000 60  0000 C CNN
