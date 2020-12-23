@@ -1,7 +1,7 @@
 ArduTrx - Open Source Hamradio Transceiver for Arduino
 ArduTrxShield regular Version
 bernhard@generationmake.de
-see full project documentation at http://ardutrx.generationmake.de
+see full project documentation at http://ardutrx.generationmake.de or https://github.com/generationmake/ArduTrxShield
 
 changes
 
@@ -21,4 +21,6 @@ version 1.1 - 2018-08-21
 * possibility to measure VIN with R35 and R36 at A1 if no GPS receiver is connected
 * added CN7 vor VIN to enable stand alone operation
 
+version 1.1.1 - 2020-12-23
+* updated some part numbers
 

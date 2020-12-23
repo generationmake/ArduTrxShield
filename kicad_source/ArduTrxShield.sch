@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ArduTrx Shield"
-Date "2020-11-29"
+Date "2020-12-23"
 Rev "x1.1.1"
 Comp "generationmake"
 Comment1 ""
